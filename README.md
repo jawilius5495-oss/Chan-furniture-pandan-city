@@ -26,8 +26,9 @@
     }
     header h1 { margin: 0; font-size: 2rem; }
     nav { 
-      background: rgba(28,37,38,0.9); 
+      background: #1C2526; 
       padding: 0.5rem; 
+      border-bottom: 2px solid #C20114; 
     }
     nav a { 
       margin: 0 1rem; 
@@ -80,9 +81,10 @@
       display: flex; 
       overflow: hidden; 
       gap: 1rem; 
-      scroll-snap-type: x mandatory; 
       padding: 1rem 0; 
       position: relative; 
+      width: 100%; 
+      box-sizing: border-box; 
     }
     .testimoni-card { 
       flex: 0 0 300px; 
@@ -90,7 +92,6 @@
       border-radius: 12px; 
       padding: 1.5rem; 
       text-align: center; 
-      scroll-snap-align: center; 
       box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
       transition: transform 0.3s; 
     }
@@ -170,6 +171,7 @@
       nav a { display: block; margin: 0.5rem 0; }
       .produk-grid { grid-template-columns: 1fr; }
       .testimoni-card { flex: 0 0 80%; }
+      .testimoni-slider { overflow-x: auto; scroll-snap-type: x mandatory; }
       .social-icons { gap: 0.5rem; }
       .social-icons img { width: 35px; height: 35px; }
       .whatsapp-float { width: 50px; height: 50px; font-size: 1.5rem; }
@@ -298,21 +300,28 @@
   </footer>
 
   <script>
-    // Auto-scroll testimoni (bergerak setiap 4 saat)
+    // Auto-scroll testimoni
     let currentSlide = 0;
     const slider = document.getElementById('testimoniSlider');
     const cards = slider.children;
     const totalCards = cards.length;
-    let slideInterval = setInterval(nextTestimoni, 4000);
+    let slideInterval;
 
-    function nextTestimoni() {
-      currentSlide = (currentSlide + 1) % totalCards;
-      slider.style.transform = `translateX(-${currentSlide * (300 + 16)}px)`; // 300px card + 16px gap
+    function startSlider() {
+      slideInterval = setInterval(() => {
+        currentSlide = (currentSlide + 1) % totalCards;
+        slider.style.transform = `translateX(-${currentSlide * (300 + 16)}px)`; // 300px card + 16px gap
+      }, 4000);
     }
 
     // Hentikan scroll semasa hover
     slider.addEventListener('mouseenter', () => clearInterval(slideInterval));
-    slider.addEventListener('mouseleave', () => slideInterval = setInterval(nextTestimoni, 4000));
+    slider.addEventListener('mouseleave', () => startSlider());
+    
+    // Mulakan slider
+    startSlider();
   </script>
 </body>
 </html>
+    
+    
