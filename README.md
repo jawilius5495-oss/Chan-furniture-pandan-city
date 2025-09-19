@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Chan Furniture Pandan City JB – Murah & Bergaya, Pilihan Bijak Rakyat Malaysia. Perabot berkualiti, ansuran mudah tanpa deposit.">
-  <meta name="keywords" content="Chan Furniture, Pandan City, Johor Bahru, perabot murah, sofa, katil, meja makan, rak TV, ansuran mudah">
+  <meta name="description" content="Chan Furniture Pandan City JB – Perabot Murah & Bergaya, Pilihan Bijak Rakyat Malaysia. Sofa, katil, meja makan, rak TV dengan ansuran mudah tanpa deposit.">
+  <meta name="keywords" content="Chan Furniture, Pandan City, Johor Bahru, perabot murah, sofa, katil, meja makan, rak TV, ansuran mudah, TikTok Chan Furniture">
   <meta name="author" content="Chan Furniture">
   <title>Chan Furniture Pandan City JB</title>
   <style>
@@ -13,30 +13,30 @@
       font-family: Arial, sans-serif; 
       margin: 0; 
       padding: 0; 
-      background: #fafafa; 
-      color: #333; 
+      background: #FFFFFF; 
+      color: #1C2526; 
       line-height: 1.6; 
     }
     header { 
-      background: #004aad; 
-      color: #fff; 
+      background: #1C2526; 
+      color: #FFFFFF; 
       padding: 1.5rem; 
       text-align: center; 
-      box-shadow: 0 2px 10px rgba(0,74,173,0.2); 
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3); 
     }
     header h1 { margin: 0; font-size: 2rem; }
     nav { 
-      background: rgba(0,74,173,0.9); 
+      background: rgba(28,37,38,0.9); 
       padding: 0.5rem; 
     }
     nav a { 
       margin: 0 1rem; 
-      color: #fff; 
+      color: #FFFFFF; 
       text-decoration: none; 
       font-weight: bold; 
       transition: color 0.3s; 
     }
-    nav a:hover { color: #ffcc00; }
+    nav a:hover { color: #C20114; }
     .section { 
       padding: 2rem 1rem; 
       max-width: 1100px; 
@@ -45,7 +45,7 @@
     h2 { 
       text-align: center; 
       margin-bottom: 1.5rem; 
-      color: #004aad; 
+      color: #1C2526; 
       font-size: 1.8rem; 
     }
     /* Produk Grid */
@@ -55,7 +55,7 @@
       gap: 1.5rem; 
     }
     .produk-card { 
-      background: #fff; 
+      background: #FFFFFF; 
       border-radius: 12px; 
       padding: 1.5rem; 
       text-align: center; 
@@ -73,7 +73,8 @@
       border-radius: 8px; 
       margin-bottom: 1rem; 
     }
-    .produk-card p { font-weight: bold; color: #004aad; margin: 0; }
+    .produk-card p { font-weight: bold; color: #1C2526; margin: 0; }
+    .produk-card small { color: #666; font-size: 0.9rem; }
     /* Testimoni */
     .testimoni-slider { 
       display: flex; 
@@ -85,7 +86,7 @@
     }
     .testimoni-card { 
       flex: 0 0 300px; 
-      background: #fff; 
+      background: #FFFFFF; 
       border-radius: 12px; 
       padding: 1.5rem; 
       text-align: center; 
@@ -103,11 +104,12 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
     }
     .avatar-img img { width: 100%; height: 100%; object-fit: cover; }
-    .rating { color: #ffcc00; font-size: 1.2rem; margin-top: 0.5rem; }
+    .rating { color: #C20114; font-size: 1.2rem; margin-top: 0.5rem; }
     /* Hubungi */
     .contact-info { display: grid; gap: 1rem; margin-bottom: 1rem; }
     .contact-info p { margin: 0; font-size: 1.1rem; }
-    .contact-info a { color: #004aad; font-weight: bold; }
+    .contact-info a { color: #C20114; font-weight: bold; text-decoration: none; }
+    .contact-info a:hover { text-decoration: underline; }
     .maps-container { 
       margin-top: 1rem; 
       border-radius: 10px; 
@@ -120,9 +122,7 @@
       gap: 1rem; 
       margin-top: 1rem; 
     }
-    .social-icons a { 
-      transition: transform 0.3s; 
-    }
+    .social-icons a { transition: transform 0.3s; }
     .social-icons a:hover { transform: scale(1.1); }
     .social-icons img { 
       width: 40px; 
@@ -135,8 +135,8 @@
       position: fixed; 
       bottom: 20px; 
       right: 20px; 
-      background: #25D366; 
-      color: #fff; 
+      background: #C20114; 
+      color: #FFFFFF; 
       width: 60px; 
       height: 60px; 
       border-radius: 50%; 
@@ -147,19 +147,22 @@
       font-size: 2rem; 
       box-shadow: 0 4px 12px rgba(0,0,0,0.25); 
       z-index: 1000; 
-      transition: transform 0.3s; 
+      transition: transform 0.3s, background 0.3s; 
     }
-    .whatsapp-float:hover { transform: scale(1.1); }
+    .whatsapp-float:hover { 
+      transform: scale(1.1); 
+      background: #F02D3A; 
+    }
     /* Footer */
     footer { 
-      background: #004aad; 
-      color: #fff; 
+      background: #1C2526; 
+      color: #FFFFFF; 
       text-align: center; 
       padding: 1.5rem; 
       margin-top: 2rem; 
     }
-    footer a { color: #fff; margin: 0 0.5rem; }
-    footer a:hover { color: #ffcc00; }
+    footer a { color: #FFFFFF; margin: 0 0.5rem; text-decoration: none; }
+    footer a:hover { color: #C20114; }
     /* Responsif */
     @media (max-width: 768px) {
       header h1 { font-size: 1.5rem; }
@@ -169,6 +172,7 @@
       .testimoni-card { flex: 0 0 80%; }
       .social-icons { gap: 0.5rem; }
       .social-icons img { width: 35px; height: 35px; }
+      .whatsapp-float { width: 50px; height: 50px; font-size: 1.5rem; }
     }
   </style>
 </head>
@@ -187,20 +191,24 @@
     <h2>Produk Popular</h2>
     <div class="produk-grid">
       <div class="produk-card">
-        <img src="images/sofa-jati-chan-pandan.jpg" alt="Sofa Jati Chan Furniture Pandan City JB" loading="lazy">
-        <p>Sofa Jati – Harga bermula RM599, ansuran mudah!</p>
+        <img src="images/sofa-jati.jpg" alt="Sofa Jati Chan Furniture Pandan City JB" loading="lazy">
+        <p>Sofa Jati</p>
+        <small>Harga bermula RM599, ansuran mudah!</small>
       </div>
       <div class="produk-card">
-        <img src="images/katil-tilam-chan-pandan.jpg" alt="Katil & Tilam Chan Furniture Pandan City JB" loading="lazy">
-        <p>Katil & Tilam – Nyaman untuk rehat keluarga!</p>
+        <img src="images/katil-tilam.jpg" alt="Katil & Tilam Chan Furniture Pandan City JB" loading="lazy">
+        <p>Katil & Tilam</p>
+        <small>Nyaman untuk rehat keluarga!</small>
       </div>
       <div class="produk-card">
-        <img src="images/meja-makan-chan-pandan.jpg" alt="Meja Makan Chan Furniture Pandan City JB" loading="lazy">
-        <p>Meja Makan – Set untuk 6 orang, moden & tahan lama!</p>
+        <img src="images/meja-makan.jpg" alt="Meja Makan Chan Furniture Pandan City JB" loading="lazy">
+        <p>Meja Makan</p>
+        <small>Set untuk 6 orang, moden & tahan lama!</small>
       </div>
       <div class="produk-card">
-        <img src="images/rak-tv-chan-pandan.jpg" alt="Rak TV Chan Furniture Pandan City JB" loading="lazy">
-        <p>Rak TV – Sesuai untuk ruang tamu moden!</p>
+        <img src="images/rak-tv.jpg" alt="Rak TV Chan Furniture Pandan City JB" loading="lazy">
+        <p>Rak TV</p>
+        <small>Sesuai untuk ruang tamu moden!</small>
       </div>
     </div>
   </section>
@@ -254,7 +262,7 @@
          Isnin - Sabtu: 12PM - 9PM<br>
          Ahad / Cuti Umum: 12PM - 8PM</p>
     </div>
-    <!-- Google Maps Embed (dari link yang diberikan) -->
+    <!-- Google Maps Embed -->
     <div class="maps-container">
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.771567123456!2d103.760123!3d1.318456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTknMDYuNCJOIDEwM8KwNDUnMzYuNCJF!5e0!3m2!1sms!2smy!4v1724069600000!5m2!1sms!2smy" 
@@ -263,7 +271,7 @@
     </div>
     <!-- Ikon Sosial -->
     <div class="social-icons">
-      <a href="https://www.tiktok.com/@chanfurnitureofficial" target="_blank" title="TikTok Chan Furniture">
+      <a href="https://www.tiktok.com/@chanfurniturepandancityjb" target="_blank" title="TikTok Chan Furniture Pandan City JB">
         <img src="images/tiktok-icon.png" alt="TikTok Chan Furniture Pandan City JB" loading="lazy">
       </a>
       <a href="https://wa.me/60162625886" target="_blank" title="WhatsApp Chan Furniture">
@@ -282,7 +290,11 @@
 
   <footer>
     <p>&copy; 2025 Chan Furniture Pandan City JB. Murah & Bergaya, Pilihan Bijak Rakyat Malaysia.</p>
-    <p><a href="https://www.chanfurniture.com.my/">Laman Rasmi</a> | <a href="https://www.facebook.com/cfpandancty/">Facebook</a> | <a href="https://www.tiktok.com/@chanfurniturepandancity">TikTok</a></p>
+    <p>
+      <a href="https://www.chanfurniture.com.my/">Laman Rasmi</a> | 
+      <a href="https://www.facebook.com/cfpandancty/">Facebook</a> | 
+      <a href="https://www.tiktok.com/@chanfurniturepandancityjb">TikTok</a>
+    </p>
   </footer>
 
   <script>
@@ -291,17 +303,16 @@
     const slider = document.getElementById('testimoniSlider');
     const cards = slider.children;
     const totalCards = cards.length;
+    let slideInterval = setInterval(nextTestimoni, 4000);
 
     function nextTestimoni() {
       currentSlide = (currentSlide + 1) % totalCards;
       slider.style.transform = `translateX(-${currentSlide * (300 + 16)}px)`; // 300px card + 16px gap
     }
 
-    setInterval(nextTestimoni, 4000);
-
     // Hentikan scroll semasa hover
-    slider.addEventListener('mouseenter', () => clearInterval());
-    slider.addEventListener('mouseleave', () => setInterval(nextTestimoni, 4000));
+    slider.addEventListener('mouseenter', () => clearInterval(slideInterval));
+    slider.addEventListener('mouseleave', () => slideInterval = setInterval(nextTestimoni, 4000));
   </script>
 </body>
 </html>
