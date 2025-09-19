@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Chan Furniture Pandan City JB – Perabot Murah & Bergaya, Pilihan Bijak Rakyat Malaysia. Sofa, katil, meja makan, rak TV dengan ansuran mudah tanpa deposit.">
-  <meta name="keywords" content="Chan Furniture, Pandan City, Johor Bahru, perabot murah, sofa, katil, meja makan, rak TV, ansuran mudah, TikTok Chan Furniture">
+  <meta name="description" content="Chan Furniture Pandan City JB – Perabot Murah & Elektronik Berkualiti. Sofa Premium, Smart TV, Peti Sejuk, iPhone, Laptop dengan ansuran mudah tanpa deposit.">
+  <meta name="keywords" content="Chan Furniture, Pandan City, Johor Bahru, perabot murah, sofa premium, smart TV, peti sejuk, iPhone, laptop, ansuran mudah, TikTok Chan Furniture">
   <meta name="author" content="Chan Furniture">
   <title>Chan Furniture Pandan City JB</title>
   <style>
@@ -193,24 +193,29 @@
     <h2>Produk Popular</h2>
     <div class="produk-grid">
       <div class="produk-card">
-        <img src="images/sofa-jati.jpg" alt="Sofa Jati Chan Furniture Pandan City JB" loading="lazy">
-        <p>Sofa Jati</p>
-        <small>Harga bermula RM599, ansuran mudah!</small>
+        <img src="images/sofa-premium.jpg" alt="Sofa Premium Chan Furniture Pandan City JB" loading="lazy">
+        <p>Sofa Premium</p>
+        <small>Harga bermula RM999, ansuran mudah!</small>
       </div>
       <div class="produk-card">
-        <img src="images/katil-tilam.jpg" alt="Katil & Tilam Chan Furniture Pandan City JB" loading="lazy">
-        <p>Katil & Tilam</p>
-        <small>Nyaman untuk rehat keluarga!</small>
+        <img src="images/smart-tv-samsung.jpg" alt="Smart TV Samsung Chan Furniture Pandan City JB" loading="lazy">
+        <p>Smart TV Samsung</p>
+        <small>4K UHD, sesuai untuk hiburan keluarga!</small>
       </div>
       <div class="produk-card">
-        <img src="images/meja-makan.jpg" alt="Meja Makan Chan Furniture Pandan City JB" loading="lazy">
-        <p>Meja Makan</p>
-        <small>Set untuk 6 orang, moden & tahan lama!</small>
+        <img src="images/peti-sejuk-panasonic.jpg" alt="Peti Sejuk Panasonic Chan Furniture Pandan City JB" loading="lazy">
+        <p>Peti Sejuk Panasonic</p>
+        <small>Hemat tenaga, kapasiti besar!</small>
       </div>
       <div class="produk-card">
-        <img src="images/rak-tv.jpg" alt="Rak TV Chan Furniture Pandan City JB" loading="lazy">
-        <p>Rak TV</p>
-        <small>Sesuai untuk ruang tamu moden!</small>
+        <img src="images/iphone-13.jpg" alt="iPhone 13 Chan Furniture Pandan City JB" loading="lazy">
+        <p>iPhone 13</p>
+        <small>Kamera canggih, prestasi pantas!</small>
+      </div>
+      <div class="produk-card">
+        <img src="images/laptop-acer.jpg" alt="Laptop Acer Chan Furniture Pandan City JB" loading="lazy">
+        <p>Laptop Acer</p>
+        <small>Untuk kerja dan hiburan, ansuran mudah!</small>
       </div>
     </div>
   </section>
@@ -223,7 +228,7 @@
         <div class="avatar-img">
           <img src="images/avatar-aisyah.jpg" alt="Avatar Aisyah" loading="lazy">
         </div>
-        <p>“Perabot sangat berkualiti, harga berpatutan. Staf mesra & layanan terbaik!”</p>
+        <p>“Perabot dan elektronik berkualiti, harga berpatutan. Staf mesra & layanan terbaik!”</p>
         <strong>- Aisyah, JB</strong>
         <div class="rating">⭐⭐⭐⭐⭐</div>
       </div>
@@ -231,7 +236,7 @@
         <div class="avatar-img">
           <img src="images/avatar-farid.jpg" alt="Avatar Farid" loading="lazy">
         </div>
-        <p>“Beli sofa & TV, penghantaran cepat. Senang urusan ansuran bulanan!”</p>
+        <p>“Beli TV dan iPhone, penghantaran cepat. Senang urusan ansuran bulanan!”</p>
         <strong>- Farid, Skudai</strong>
         <div class="rating">⭐⭐⭐⭐⭐</div>
       </div>
@@ -239,7 +244,7 @@
         <div class="avatar-img">
           <img src="images/avatar-lim-wei.jpg" alt="Avatar Lim Wei" loading="lazy">
         </div>
-        <p>“Banyak pilihan perabot moden. Akan datang lagi untuk beli almari dapur.”</p>
+        <p>“Banyak pilihan elektronik moden. Akan datang lagi untuk peti sejuk!”</p>
         <strong>- Lim Wei, Tebrau</strong>
         <div class="rating">⭐⭐⭐⭐⭐</div>
       </div>
@@ -323,5 +328,3 @@
   </script>
 </body>
 </html>
-    
-    
