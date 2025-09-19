@@ -8,6 +8,14 @@
   <meta name="keywords" content="Chan Furniture, Pandan City, Johor Bahru, perabot murah, sofa premium, smart TV, peti sejuk, iPhone, laptop, ansuran mudah, TikTok Chan Furniture">
   <meta name="author" content="Chan Furniture">
   <title>Chan Furniture Pandan City JB</title>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
   <style>
     :root {
       --primary-color: #1C2526;
@@ -423,6 +431,71 @@
       border: none;
     }
 
+    .contact-form {
+      background: var(--background);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: var(--card-shadow);
+    }
+
+    .contact-form h3 {
+      color: var(--text-color);
+      margin-bottom: 1.5rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--text-color);
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: var(--accent-color);
+      outline: none;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .contact-form button {
+      background: var(--accent-color);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: var(--light-accent);
+      transform: translateY(-2px);
+    }
+
+    .tiktok-embed {
+      max-width: 325px;
+      margin: 2rem auto;
+      aspect-ratio: 1/1;
+    }
+
     .social-icons {
       display: flex;
       justify-content: center;
@@ -564,6 +637,10 @@
         flex: 0 0 100%;
       }
 
+      .tiktok-embed {
+        max-width: 100%;
+      }
+
       .social-icons {
         gap: 1rem;
       }
@@ -602,7 +679,7 @@
   <div class="hero">
     <h2>Perabot & Elektronik Berkualiti</h2>
     <p>Dapatkan perabot dan elektronik pilihan dengan ansuran mudah tanpa deposit di Chan Furniture Pandan City JB</p>
-    <a href="https://wa.me/60162625886?text=Hai!%20Saya%20nak%20tahu%20promosi%20terkini%20Chan%20Furniture%20Pandan%20City%20JB." class="cta-button">
+    <a href="https://wa.me/60162625886?text=Hai!%20Saya%20nak%20tahu%20promosi%20terkini%20Chan%20Furniture%20Pandan%20City%20JB." class="cta-button" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Hero WhatsApp'})">
       💬 Hubungi Sekarang
     </a>
   </div>
@@ -619,7 +696,7 @@
             <h3>Sofa Premium</h3>
             <span class="price">RM169/bulan</span>
             <small>Kualiti tinggi, selesa dan tahan lama</small>
-            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Sofa%20Premium" class="btn-detail">Pesan Sekarang</a>
+            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Sofa%20Premium" class="btn-detail" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Sofa Premium'})">Pesan Sekarang</a>
           </div>
         </article>
         <article class="produk-card">
@@ -628,7 +705,7 @@
             <h3>Smart TV Sharp</h3>
             <span class="price">RM189/bulan</span>
             <small>4K UHD, sesuai untuk hiburan keluarga!</small>
-            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Smart%20TV%20Sharp" class="btn-detail">Pesan Sekarang</a>
+            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Smart%20TV%20Sharp" class="btn-detail" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Smart TV Sharp'})">Pesan Sekarang</a>
           </div>
         </article>
         <article class="produk-card">
@@ -638,7 +715,7 @@
             <h3>Peti Sejuk 4 Pintu Sharp</h3>
             <span class="price">RM199/bulan</span>
             <small>Hemat tenaga, kapasiti besar!</small>
-            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Peti%20Sejuk%204%20Pintu%20Sharp" class="btn-detail">Pesan Sekarang</a>
+            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Peti%20Sejuk%204%20Pintu%20Sharp" class="btn-detail" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Peti Sejuk Sharp'})">Pesan Sekarang</a>
           </div>
         </article>
         <article class="produk-card">
@@ -647,7 +724,7 @@
             <h3>iPhone 13</h3>
             <span class="price">RM199/bulan</span>
             <small>Kamera canggih, prestasi pantas!</small>
-            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20iPhone%2013" class="btn-detail">Pesan Sekarang</a>
+            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20iPhone%2013" class="btn-detail" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'iPhone 13'})">Pesan Sekarang</a>
           </div>
         </article>
         <article class="produk-card">
@@ -657,7 +734,7 @@
             <h3>Laptop Acer</h3>
             <span class="price">RM169/bulan</span>
             <small>Untuk kerja dan hiburan, ansuran mudah!</small>
-            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Laptop%20Acer" class="btn-detail">Pesan Sekarang</a>
+            <a href="https://wa.me/60162625886?text=Saya%20berminat%20dengan%20Laptop%20Acer" class="btn-detail" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Laptop Acer'})">Pesan Sekarang</a>
           </div>
         </article>
       </div>
@@ -667,7 +744,10 @@
     <section class="promosi" id="promosi">
       <h2>PROMOSI EKSKLUSIF</h2>
       <p>Dapatkan tawaran istimewa untuk pembelian pertama anda! Diskaun sehingga 20% untuk produk terpilih.</p>
-      <a href="https://wa.me/60162625886?text=Saya%20nak%20tahu%20lebih%20lanjut%20tentang%20promosi" class="cta-button">
+      <div class="tiktok-embed">
+        <iframe src="https://www.tiktok.com/embed/v2/123456789" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <a href="https://wa.me/60162625886?text=Saya%20nak%20tahu%20lebih%20lanjut%20tentang%20promosi" class="cta-button" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Promosi WhatsApp'})">
         🎁 Dapatkan Sekarang
       </a>
     </section>
@@ -750,27 +830,39 @@
             </div>
           </div>
         </div>
-        <div class="maps-container">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.771567123456!2d103.760123!3d1.318456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTknMDYuNCJOIDEwM8KwNDUnMzYuNCJF!5e0!3m2!1sms!2smy!4v1724069600000!5m2!1sms!2smy" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Peta Lokasi Chan Furniture Pandan City JB">
-          </iframe>
+        <div class="contact-form">
+          <h3>Hantar Pertanyaan</h3>
+          <form id="whatsappForm" onsubmit="sendToWhatsApp(event)">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Nombor Telefon:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="message">Mesej:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" onclick="gtag('event', 'submit', {'event_category': 'Form', 'event_label': 'WhatsApp Form'})">Hantar ke WhatsApp</button>
+          </form>
         </div>
       </div>
+      <div class="maps-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.771567123456!2d103.760123!3d1.318456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTknMDYuNCJOIDEwM8KwNDUnMzYuNCJF!5e0!3m2!1sms!2smy!4v1724069600000!5m2!1sms!2smy" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Peta Lokasi Chan Furniture Pandan City JB">
+        </iframe>
+      </div>
       <div class="social-icons">
-        <a href="https://www.tiktok.com/@chanfurniturepandancityjb" target="_blank" title="TikTok Chan Furniture" aria-label="TikTok">🎵</a>
-        <a href="https://wa.me/60162625886" target="_blank" title="WhatsApp Chan Furniture" aria-label="WhatsApp">💬</a>
-        <a href="https://www.facebook.com/cfpandancty/" target="_blank" title="Facebook Chan Furniture" aria-label="Facebook">📘</a>
-        <a href="https://www.instagram.com/example" target="_blank" title="Instagram Chan Furniture" aria-label="Instagram">📸</a>
+        <a href="https://www.tiktok.com/@chanfurniturepandancityjb" target="_blank" title="TikTok Chan Furniture" aria-label="TikTok" onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'TikTok'})">🎵</a>
+        <a href="https://wa.me/60162625886" target="_blank" title="WhatsApp Chan Furniture" aria-label="WhatsApp" onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'WhatsApp'})">💬</a>
+        <a href="https://www.facebook.com/cfpandancty/" target="_blank" title="Facebook Chan Furniture" aria-label="Facebook" onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'Facebook'})">📘</a>
+        <a href="https://www.instagram.com/example" target="_blank" title="Instagram Chan Furniture" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'Social', 'event_label': 'Instagram'})">📸</a>
       </div>
     </section>
   </main>
 
   <!-- WhatsApp Float Button -->
-  <a href="https://wa.me/60162625886?text=Hai!%20Saya%20nak%20tahu%20promosi%20terkini%20Chan%20Furniture%20Pandan%20City%20JB." class="whatsapp-float" target="_blank" aria-label="Hubungi WhatsApp">💬</a>
+  <a href="https://wa.me/60162625886?text=Hai!%20Saya%20nak%20tahu%20promosi%20terkini%20Chan%20Furniture%20Pandan%20City%20JB." class="whatsapp-float" target="_blank" aria-label="Hubungi WhatsApp" onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'WhatsApp Float'})">💬</a>
 
   <footer>
     <div class="footer-content">
@@ -788,6 +880,7 @@
   </footer>
 
   <script>
+    // Testimoni Slider
     document.addEventListener('DOMContentLoaded', () => {
       const slider = document.getElementById('testimoniSlider');
       const slides = document.querySelectorAll('.testimoni-card');
@@ -838,6 +931,17 @@
       updateSlider();
       startSlider();
     });
+
+    // WhatsApp Form Submission
+    function sendToWhatsApp(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const message = document.getElementById('message').value;
+      const whatsappMessage = `Nama: ${encodeURIComponent(name)}, Telefon: ${encodeURIComponent(phone)}, Mesej: ${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/60162625886?text=${whatsappMessage}`;
+      window.open(whatsappUrl, '_blank');
+    }
   </script>
 </body>
 </html>
